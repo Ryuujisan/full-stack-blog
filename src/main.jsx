@@ -34,7 +34,7 @@ const router = createBrowserRouter([
                 element: <Homepage />,
             },
             {
-                path: "/post",
+                path: "/posts",
                 element: <PostListPage/>,
             },
             {
@@ -42,7 +42,7 @@ const router = createBrowserRouter([
                 element: <SinglePostPage/>,
             },
             {
-                path: "/:write",
+                path: "/write",
                 element: <Write/>,
             },
             {
